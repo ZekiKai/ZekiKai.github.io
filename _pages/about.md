@@ -25,6 +25,22 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+/* 强制注入自定义样式 */
+.profile {
+  width: 22% !important;
+  margin-left: 20px !important;
+}
+.profile img {
+  max-width: 95% !important;
+  margin: 0 auto;
+}
+.post article p {
+  font-size: 1.15rem !important;
+  line-height: 1.7 !important;
+}
+</style>
+
 Hi! I am a third-year undergraduate student at the University of Science and Technology Beijing. 
 
 My research targets real-world robotic applications. I'm now working on robotic perception, such as visual-inertial odometry. I'm also interested in Vision-Language-Navigation (VLN), spatial intelligence, and mobile manipulation.
