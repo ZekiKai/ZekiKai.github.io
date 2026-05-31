@@ -1311,7 +1311,7 @@ ninja-keys::part(ninja-input-wrapper) {
 
 /* 1. 缩放头像（默认占比一般是 30%，这里我们改小一点） */
 .profile {
-  width: 15% !important;        /* 默认宽度缩减，你可以根据需要调整为 20% ~ 25% */
+  width: 10% !important;        /* 默认宽度缩减，你可以根据需要调整为 20% ~ 25% */
   margin-left: 20px !important;  /* 与左侧文字保持适度间距 */
   
   img {
