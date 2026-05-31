@@ -1305,25 +1305,18 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-text-color);
 }
 
-/* -------------------------------------------------- */
-/* 自定义样式：缩放头像并增大简介文字 */
-/* -------------------------------------------------- */
-
-/* 1. 缩放头像（默认占比一般是 30%，这里我们改小一点） */
+/* Custom style to resize profile avatar and increase intro text size */
 .profile {
-  width: 10% !important;        /* 默认宽度缩减，你可以根据需要调整为 20% ~ 25% */
-  margin-left: 20px !important;  /* 与左侧文字保持适度间距 */
-  
-  img {
-    max-width: 90% !important;   /* 让图片在头像容器内进一步缩小 */
-    margin: 0 auto;
-  }
+  width: 20% !important;
+  margin-left: 20px !important;
 }
 
-/* 2. 增大左侧主页介绍的字号 */
-.post-content {
-  p {
-    font-size: 1.5rem !important; /* 默认一般是 1rem，增大字号 */
-    line-height: 1.85 !important;  /* 适当调大行高 */
-  }
+.profile img {
+  max-width: 90% !important;
+  margin: 0 auto;
+}
+
+.post article p {
+  font-size: 1.15rem !important;
+  line-height: 1.7 !important;
 }
