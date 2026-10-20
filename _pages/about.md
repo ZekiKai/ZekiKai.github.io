@@ -6,7 +6,7 @@ subtitle: ""
 
 profile:
   align: right
-  image: formal.jpg
+  image: head.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Email: <a href="mailto:zk386698@outlook.com">zk386698@outlook.com</a></p>
